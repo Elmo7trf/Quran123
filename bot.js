@@ -1,12 +1,12 @@
 const http = require('http');
 const express = require('express');
-const app = express();
+const app = express();//
 app.get("/", (request, response) => {
-  response.sendStatus(200);// CODE BY KAHRBAA كههربا
+  response.sendStatus(200);// 
 });
 app.listen(process.env.PORT);
-setInterval(() => { // CODE BY KAHRBAA كههربا
-  http.get(`http://qurann-24h.glitch.me/`);
+setInterval(() => { //
+  http.get(`https://Quran123sdasdadasdasda.jokman.repl.run`);
 }, 280000);
 
 //======================================[Const]======================================
@@ -19,10 +19,9 @@ const moment = require('moment');
 const request = require('request');
 const cmd = require("node-cmd");
 const prefix = "*"; // البرافيكس
-   const GUILDID = ''; // اي دي السيرفر  
-   const CHANNELID = ''; // اي دي الروم
+   const GUILDID = '727134442857955328'; // اي دي السيرفر  
+   const CHANNELID = '754296480042319883'; // اي دي الروم
 //======================================[Client]======================================
-// CODE BY KAHRBAA كههربا
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -102,8 +101,7 @@ client.on('message', message => {
     })
 }
 });
-      // CODE BY KAHRBAA كههربا
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.token);
